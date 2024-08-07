@@ -260,6 +260,7 @@
       #wali_kota {
         position: absolute;
         bottom: -8px;
+        animation: fade_in 2s;
       }
 
       #wali_kota img {
@@ -316,6 +317,12 @@
         }
       }
 
+      @media screen and (max-width: 800px) {
+        #wali_kota {
+          left: -10%;
+        }
+      }
+
       @media screen and (max-width: 670px) {
         #wifi_container {
           position: absolute;
@@ -341,8 +348,12 @@
           background-position: left 20% bottom 0% right;
         }
 
+        #wali_kota {
+          left: -15%;
+        }
+
         #wali_kota img {
-          width: 90%;
+          width: 80%;
           height: auto;
           margin: 0;
           display: block;
