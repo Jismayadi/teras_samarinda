@@ -349,7 +349,7 @@
         }
 
         #wali_kota {
-          left: -15%;
+          left: -10%;
         }
 
         #wali_kota img {
@@ -414,7 +414,7 @@
           <img src="imgs/wifi.png" alt="wi-fi icon" />
           <p>Free Wi-Fi</p>
         </div>
-        <button class="ripple">Connect</button>
+        <button class="ripple" onclick="redirectToPage()">Connect</button>
       </div>
       <div id="wali_kota">
         <img src="imgs/wali_kota.png" alt="Foto Wali Kota" />
@@ -425,5 +425,13 @@
         alt="Logo Teras Samarinda"
       />
     </section>
+
+    <!--halamantujuan.com diubah ke halaman redirect mikrotik tujuan-->
+    <script>
+      function redirectToPage() {
+          window.location.href = "http://halamantujuan.com";
+      }
+  </script>
+
   </body>
 </html>
